@@ -3,7 +3,8 @@
 ****************************************
 cd ~/Downloads/
 wget -O splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb "https://download.splunk.com/products/splunk/releases/9.0.2/linux/splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb"
-sudo dpkg -i splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb 
+sudo dpkg -i splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb
+Passw0rd
 sudo ufw disable
 cd /opt/splunk/bin
 sudo ./splunk enable boot-start
