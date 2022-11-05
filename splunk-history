@@ -1,0 +1,22 @@
+    1  cd Downloads/
+    2  ls
+    3  ufw disable
+    4  sudo ufw disable
+    5  sudo apt update
+    6  sudo apt upgrade
+    7  sudo dpkg -i splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb 
+    8  cd /opt/splunk/
+    9  ls
+   10  cd /bin
+   11  ls
+   12  ./splunk enable boot-start
+   13  ls
+   14  ls sp
+   15  ls sp*
+   16  cd /opt/splunk/bin
+   17  ls sp*
+   18  sudo ./splunk enable boot-start
+   19  sudo service splink start
+   20  sudo service splunk start
+   21  sudo ./splunk start
+   22  history >> ~/splunk-history
