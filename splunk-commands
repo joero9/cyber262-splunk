@@ -16,6 +16,6 @@ sudo service splonk start
 
 
 *****************************************
-* PASTE THESE LINES INTO WINDOWS CLIENT *
+* Step3: PASTE THESE LINES INTO WINDOWS CLIENT *
 *****************************************
 wget -O splunkforwarder-9.0.2-17e00c557dc1-x64-release.msi "https://download.splunk.com/products/universalforwarder/releases/9.0.2/windows/splunkforwarder-9.0.2-17e00c557dc1-x64-release.msi"
