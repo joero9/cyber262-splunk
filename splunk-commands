@@ -1,3 +1,6 @@
+****************************************
+* PASTE THESE LINES INTO UBUNTU SERVER *
+****************************************
 cd Downloads/
 wget -O splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb "https://download.splunk.com/products/splunk/releases/9.0.2/linux/splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb"
 sudo ufw disable
@@ -6,3 +9,8 @@ cd /opt/splunk/bin
 sudo ./splunk enable boot-start
 sudo service splink start
 
+
+*****************************************
+* PASTE THESE LINES INTO WINDOWS CLIENT *
+*****************************************
+wget -O splunkforwarder-9.0.2-17e00c557dc1-x64-release.msi "https://download.splunk.com/products/universalforwarder/releases/9.0.2/windows/splunkforwarder-9.0.2-17e00c557dc1-x64-release.msi"
