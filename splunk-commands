@@ -3,8 +3,10 @@
 ***********************************************
 cd ~/Downloads/
 wget -O splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb "https://download.splunk.com/products/splunk/releases/9.0.2/linux/splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb"
-sudo dpkg -i splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb
+sudo apt update
 Passw0rd
+sudo apt upgrade 
+sudo dpkg -i splunk-9.0.2-17e00c557dc1-linux-2.6-amd64.deb
 
 ***********************************************
 * Step2: PASTE THESE LINES INTO UBUNTU SERVER *
